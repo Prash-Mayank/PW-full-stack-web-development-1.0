@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+/* ---------------- BODY ---------------- */
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("./pexels-maxyne-barcel-10402282\ 1.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* ---------------- CONTAINER ---------------- */
+
+.container {
+  min-height: 100vh;
+  position: relative;
+}
+
+/* ---------------- NAVBAR ---------------- */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 60px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 63px;
+  list-style: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffc233;
+}
+
+.list-item {
+  cursor: pointer;
+}
+
+/* Order Button */
+
+.button-small {
+  padding: 12px 40px;
+  background-color: #ff505f;
+  border: none;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* ---------------- HERO SECTION ---------------- */
+
+.hero {
+  max-width: 1154px;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.hero-heading {
+  font-family: "Dela Gothic One", cursive;
+  font-weight: 400;
+  font-size: clamp(56px, 7vw, 104px);
+  line-height: 1.1;
+  color: #ffc233;
+}
+
+/* Hero Button */
+
+.button-large {
+  margin-top: 64px;
+  padding: 24px 56px;
+  background-color: #ff505f;
+  border: none;
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* ---------------- SCROLL ICON ---------------- */
+
+.bottom {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}

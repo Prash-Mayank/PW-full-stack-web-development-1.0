@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000;
+}
+
+/* ---------------- NAVBAR ---------------- */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 31px 83px;
+  height: 94px;
+  background-color: #000;
+}
+
+.logo {
+  width: 92px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.line {
+  width: 1px;
+  height: 50px;
+  background-color: #ffffff;
+  margin: 0 63px;
+}
+
+.grow-list {
+  flex-grow: 1;
+}
+
+.list {
+  display: flex;
+  gap: 63px;
+  list-style: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.list-item {
+  cursor: pointer;
+}
+
+/* Navbar Button */
+
+.button-small {
+  padding: 7px 28px;
+  background-color: #ba0cc5;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* ---------------- HERO SECTION ---------------- */
+
+.hero {
+  height: calc(100vh - 94px);
+  background-image: url("bg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-heading {
+  max-width: 900px;
+  margin-top: 160px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 98px;
+  color: #ffffff;
+}
+
+.hero-description {
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+/* Hero Button */
+
+.button-large {
+  margin-top: 64px;
+  padding: 14px 32px;
+  background-color: #ba0cc5;
+  border-radius: 11px;
+  border: none;
+  font-weight: 600;
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
